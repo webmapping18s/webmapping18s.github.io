@@ -1,0 +1,75 @@
+/*
+*
+* CSS styles for the Bike Trail Tirol project
+*
+*/
+
+body {
+    max-width: 1280px;
+    margin: auto;
+    font-family: "Open Sans"; /* Source: https://fonts.google.com/specimen/Open+Sans */
+}
+
+#header {
+    text-align: center;
+    background-color: dodgerblue;
+    background-image: url('images/header.jpg');
+    background-repeat: no-repeat;
+    height: 360px;
+}
+#header h2 {
+    font-size: 4em;
+    padding: 1em 0;
+    margin: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#header h3 {
+    font-size: 2em;
+    margin: 0;        
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.author {
+    text-align: center;
+}
+.author img {
+    border: 4px solid white;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+.author p {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.article {
+    width: 90%;
+    margin: auto;
+}
+
+#map {
+    width: 100%;
+    height: 760px;
+    border: 1px solid gray;
+}
+
+#footer {
+    width: 100%;
+    padding: 1em 0 3em 0;
+}
+#footer .back {
+    float: left;
+}
+#footer .next {
+    float: right;
+}
+
+a:link, a:visited {
+    color: black;
+}
+.gray, .gray a:link, .gray a:visited {
+    color: gray;
+}
+.white, .white a:link, .white a:visited {
+    color: white;
+}

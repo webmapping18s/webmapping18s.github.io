@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bike Trail Tirol - Etappe 07: Scharnitz - Achensee</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../js/leaflet/leaflet.css" />
+    <script src="../js/leaflet/leaflet.js"></script>
+
+    <link rel="stylesheet" href="../js/leaflet.fullscreen/leaflet.fullscreen.css" />
+    <script src="../js/leaflet.fullscreen/Leaflet.fullscreen.js"></script>
+
+    <script src="../js/leaflet.gpx/gpx.js"></script>
+
+    <script src="../js/d3/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="../js/leaflet.elevation/leaflet.elevation-0.0.4.css" />
+    <script src="../js/leaflet.elevation/leaflet.elevation-0.0.4.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="biketirol.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <h2 class="white">Bike Trail Tirol</h2>
+        <h3 class="white">Griass enk die Wadeln!</h3>
+    </div>
+
+    <div class="author">
+        <img src="images/user.jpg" alt="Ihr Reiseleiter" />
+        <p class="gray">
+            <a href="mailto:klaus.foerster@uibk.ac.at">Klaus Förster</a> -
+            <a href="https://webmapping.github.io/biketirol/index.html">https://webmapping.github.io/biketirol/</a>
+        </p>
+    </div>
+
+    <hr />
+
+    
+    <div class="article">
+        <h1>Etappe 07 von Scharnitz zum Achensee</h1>
+
+        <p>Diese als schwierig eingestufte Tour verlangt Können und Kondition. Mit 60 Kilometern Länge und 1.850 zu überwindenden Höhenmetern zählt sie zu einer der längsten und schwierigsten Etappen. Sie führt Sie durch die kontrastreiche Landschaft des Karwendels, das Ihnen mit schroffen Felsen, satten Wiesen und grünen Wäldern das breite Spektrum der Bergwelt offenbart.</p>
+
+        <p>
+            <strong>Tourdaten</strong>:
+            Länge <span id="get_distance"></span>m,
+            tiefster Punkt <span id="get_elevation_min"></span>m,
+            höchster Punkt <span id="get_elevation_max"></span>m,
+            Aufstieg <span id="get_elevation_gain"></span>m,
+            Abstieg <span id="get_elevation_loss"></span>m.
+        </p>
+
+        <div id="map"></div>
+
+        <h2>Streckenbeschreibung</h2>
+        <p>Nach dem Start radelt man zunächst einen Kilometer taleinwärts, ehe man links auf die Forststraße zum Karwendelhaus abzweigt. Ohne Abzweigungen fährt man nun durch das Karwendeltal bis zum Karwendelhaus. Nur ein kurzer Anstieg ist es bis zum Hochalmsattel. Nach einer Abfahrt erreicht man den Kleinen Ahornboden und fährt nun auf gut ausgebauten Forststraßen durchs Johannestal Richtung Hinterriß. Im Rißtal angekommen radelt man taleinwärts bis zur Abzweigung auf das Plumsjoch. Nun geht es noch einmal gute 500 Höhenmeter zur Plumsjochhütte hinauf. Nach der Einkehr folgt eine technisch schwierige Abfahrt (<a href="http://maps.achensee.com/#resourceDetail,799661">Singletrail Plumsjoch</a> oder Schiebestrecke) ins Gerntal und auf einer asphaltierten Straße weiter nach Pertisau. Nach der Ortsdurchfahrt radelt man direkt neben dem Achensee auf einem Radweg zum Etappenziel beim Parkplatz in Maurach- Buchau.</p>
+
+        <h3>Links</h3>
+        <ul>
+            <li><a href="https://www.tirol.at/reisefuehrer/sport/radfahren/biketouren/a-bike-trail-tirol-scharnitz-achensee">Link zur Etappenbeschreibung bei Biketrail Tirol</a></li>
+            <li><a href="http://www.scharnitz.tirol.gv.at/de/">Gemeinde Scharnitz | Die offizielle Seite der Gemeinde Scharnitz</a></li>
+            <li><a href="https://karwendelhaus.com/">Das Karwendelhaus 1765m - im Karwendel am Fuße der Birkkarspitze</a></li>
+            <li><a href="http://www.ahornboden.com/kleiner-ahornboden/">Der kleine Ahornboden</a></li>
+            <li><a href="http://members.aon.at/jnill1/">Plumsjochhütte (1633m)</a></li>
+            <li><a href="https://www.achensee.com/tirol/pertisau/">Pertisau am Achensee</a></li>
+            <li><a href="https://www.achensee.com/tirol/maurach/">Maurach am Achensee</a></li>
+        </ul>
+    </div>
+
+    <hr />
+
+    <div id="footer" class="gray">
+        <a class="back" href="https://brankej.github.io/biketirol/index.html">
+            <i class="fas fa-arrow-alt-circle-left"></i> vorhergehender Stop</a>
+        <a class="next" href="https://wombat77.github.io/biketirol/index.html">nächster Stop
+            <i class="fas fa-arrow-alt-circle-right"></i>
+        </a>
+    </div>
+
+</body>
+</html>
