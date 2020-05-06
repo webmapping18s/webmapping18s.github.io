@@ -33,6 +33,6 @@ Alle drei Bestandteile müssen positiv absolviert werden.
 * Beim zweiten "Plagiat" Ausschluss des/der Abschreibenden aus dem Kurs mit negativer Gesamtnote
 
 ### Links
-* [https://github.com/webmapping](https://github.com/webmapping)
-* [https://webmapping.github.io](https://webmapping.github.io)
+* [https://github.com/webmapping18s](https://github.com/webmapping18s)
+* [https://webmapping18s.github.io](https://webmapping18s.github.io)
 * [https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=18S&lvnr_id_in=716409](https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=18S&lvnr_id_in=716409)
